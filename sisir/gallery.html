@@ -1,8 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" xmlns:fb="http://ogp.me/ns/fb#" itemscope itemtype="http://schema.org/Article">
 <head>
 	<meta name="description" content="My Fave Pics." />
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<meta itemprop="name" content="Gallery">
+	<meta itemprop="description" content="My Fave Pics.">
+	<meta itemprop="image" content="http://sisir.rayaguru.com/image/ficon.png">
 	<link rel="icon" type="image/png" href="image/ficon.png" />
 	<link rel="stylesheet" type="text/css" href="include/style.css" />
 	<title>Sisir Rayaguru | Gallery</title>
@@ -29,6 +32,28 @@
 			</div>
 			<div id="menu" align="right">
 				<a href="./">Home</a> | <a href="about.html">About</a> | Gallery | <a href="download.html">Download</a>
+			</div>
+			<div id="share" align="left">
+				<span id="fb-root"></span>
+				<script>
+					(function(d, s, id) {
+					var js, fjs = d.getElementsByTagName(s)[0];
+					if (d.getElementById(id)) return;
+					js = d.createElement(s); js.id = id;
+					js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=371112342959975";
+					fjs.parentNode.insertBefore(js, fjs);
+					}(document, 'script', 'facebook-jssdk'));
+				</script>
+				<fb:like href="http://sisir.rayaguru.com/gallery.html" send="false" layout="button_count" width="90" show_faces="false" font="verdana"></fb:like>
+				&nbsp;&nbsp;
+				<g:plusone size="medium" width="90" href="http://sisir.rayaguru.com/gallery.html"></g:plusone>
+				<script type="text/javascript">
+					(function() {
+						var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+						po.src = 'https://apis.google.com/js/plusone.js';
+						var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+					})();
+				</script>
 			</div>
 		</div>
 		<br />
