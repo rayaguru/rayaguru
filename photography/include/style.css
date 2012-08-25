@@ -53,6 +53,11 @@ text-decoration : none;
 #menu a:hover {
 text-decoration : underline;
 }
+#share {
+position : absolute;
+margin-top : 126px;
+margin-left : 236px;
+}
 #navigation {
 position : absolute;
 margin-top : 164px;
