@@ -54,9 +54,9 @@ text-decoration : none;
 text-decoration : underline;
 }
 #share {
-position : absolute;
-margin-top : 126px;
-margin-left : 236px;
+position : fixed;
+margin-top : 164px;
+margin-left : 820px;
 }
 #navigation {
 position : absolute;
