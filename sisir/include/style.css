@@ -56,7 +56,8 @@ text-decoration : underline;
 #share {
 position : fixed;
 margin-top : 164px;
-margin-left : 820px;
+margin-left : -70px;
+text-align : right;
 }
 #navigation {
 position : absolute;
