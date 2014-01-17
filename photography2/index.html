@@ -42,7 +42,7 @@
 		<link rel="stylesheet" href="css/jquery.tabs.css" type="text/css" media="print, projection, screen" />
 		<!-- Additional IE/Win specific style sheet (Conditional Comments) -->
 		<!--[if lte IE 7]>
-		<link rel="stylesheet" href="css/jquery.tabs-ie.css" type="text/css" media="projection, screen">
+		<link rel="stylesheet" href="../css/jquery.tabs-ie.css" type="text/css" media="projection, screen">
 		<![endif]-->
 
 		<!-- Cufon -->
@@ -70,56 +70,116 @@
 
 		<!-- MAIN -->
 		<div id="main">
-			<a href="./"><img src="img/logo.png" alt="Logo" id="logo" /></a>
-			<!-- navigation -->
-			<div id="centeredmenu">
-				<ul class="sf-menu">
-					<li class="current_page_item"><a href="./">HOME</a></li>
-					<li><a href="about.html">ABOUT</a></li>
-					<li><a href="gallery">GALLERY</a>
-						<ul>
-							<li><a href="gallery/#all">ALL</a></li>
-							<li><a href="gallery/#filter-expo">EXPO</a></li>
-							<li><a href="gallery/#filter-events">EVENTS</a></li>
-							<li><a href="gallery/#filter-rides">RIDES</a></li>
-						</ul>
-					</li>
-					<li><a href="contact.html">CONTACT</a></li>
-				</ul>
+			<a href="./"><img src="img/logo.png" alt="Logo" id="logo" /></a><br><br>
+			<!-- title -->
+			<div class="title">
+				<span class="big">Rayaguru Photography</span> <span class="small">Photography is an addiction and we are addicted!</span>
 			</div>
-			<div class="clear"></div>
-			<!-- ENDS navigation -->
-			<!-- slideshow -->
-			<div id="slideshow">
-				<a href="" id="slideshow-link" ><span></span></a>
-				<ul id="slides">
-					<li><a href=""><img src="img/slides/1.jpg" alt="Imagen" /></a></li>
-					<li><a href=""><img src="img/slides/2.jpg" alt="Imagen" /></a></li>
-					<li><a href=""><img src="img/slides/3.jpg" alt="Imagen" /></a></li>
-				</ul>
-			</div>
-			<!-- ENDS slideshow -->
+			<!-- ENDS title -->
 
-			<!-- headline -->
-			<div class="headline">
-				Photography is an addiction and we are addicted!
-			</div>
-			<!-- ENDS headline -->	
+			<!-- filter -->
+			<ul id="portfolio-filter">
+				<li>FILTER</li>
+				<li><a href="#all">ALL</a></li>
+				<li><a href="#filter-expo">EXPO</a></li>
+				<li><a href="#filter-events">EVENTS</a></li>
+				<li><a href="#filter-rides">RIDES</a></li>
+			</ul>
+			<!-- filter -->
+
+			<!-- Thumbnails -->
+			<ul id="portfolio-list" class="gallery three-cols" >
+				<li class="filter-expo">
+					<a href="exponature"><img src="exponature/one.jpg" onmouseover="this.src='exponature/two.jpg'" onmouseout="this.src='exponature/one.jpg'" alt="Nature"/></a>
+					<em>Nature</em>
+				</li>
+				<li class="filter-expo">
+					<a href="expobirdwatching"><img src="expobirdwatching/one.jpg" onmouseover="this.src='expobirdwatching/two.jpg'" onmouseout="this.src='expobirdwatching/one.jpg'" alt="Bird Watching"/></a>
+					<em>Bird Watching</em>
+				</li>
+				<li class="filter-expo">
+					<a href="expocountryside"><img src="expocountryside/one.jpg" onmouseover="this.src='expocountryside/two.jpg'" onmouseout="this.src='expocountryside/one.jpg'" alt="Countryside"/></a>
+					<em>Countryside</em>
+				</li>
+				<li class="filter-expo">
+					<a href="expomilestogo"><img src="expomilestogo/one.jpg" onmouseover="this.src='expomilestogo/two.jpg'" onmouseout="this.src='expomilestogo/one.jpg'" alt="Miles to go..."/></a>
+					<em>Miles to go...</em>
+				</li>
+				<li class="filter-expo">
+					<a href="expothechosenones"><img src="expothechosenones/one.jpg" onmouseover="this.src='expothechosenones/two.jpg'" onmouseout="this.src='expothechosenones/one.jpg'" alt="The Chosen Ones"/></a>
+					<em>The Chosen Ones</em>
+				</li>
+				<li class="filter-expo">
+					<a href="expoforyoureyesonly"><img src="expoforyoureyesonly/one.jpg" onmouseover="this.src='expoforyoureyesonly/two.jpg'" onmouseout="this.src='expoforyoureyesonly/one.jpg'" alt="For Your Eyes Only"/></a>
+					<em>For Your Eyes Only</em>
+				</li>
+				<li class="filter-expo">
+					<a href="expobikezzz"><img src="expobikezzz/one.jpg" onmouseover="this.src='expobikezzz/two.jpg'" onmouseout="this.src='expobikezzz/one.jpg'" alt="Bikezzz"/></a>
+					<em>Bikezzz</em>
+				</li>
+				<li class="filter-expo">
+					<a href="expocreativity"><img src="expocreativity/one.jpg" onmouseover="this.src='expocreativity/two.jpg'" onmouseout="this.src='expocreativity/one.jpg'" alt="Creativity"/></a>
+					<em>Creativity</em>
+				</li>
+				<li class="filter-expo">
+					<a href="expolaughoutloud"><img src="expolaughoutloud/one.jpg" onmouseover="this.src='expolaughoutloud/two.jpg'" onmouseout="this.src='expolaughoutloud/one.jpg'" alt="Laugh Out Loud"/></a>
+					<em>Laugh Out Loud</em>
+				</li>
+				<li class="filter-events">
+					<a href="eventsrelioquickautomall"><img src="eventsrelioquickautomall/one.jpg" onmouseover="this.src='eventsrelioquickautomall/two.jpg'" onmouseout="this.src='eventsrelioquickautomall/one.jpg'" alt="Relio Quick Auto Mall"/></a>
+					<em>Relio Quick Auto Mall</em>
+				</li>
+				<li class="filter-events">
+					<a href="eventsautocarperformanceshow"><img src="eventsautocarperformanceshow/one.jpg" onmouseover="this.src='eventsautocarperformanceshow/two.jpg'" onmouseout="this.src='eventsautocarperformanceshow/one.jpg'" alt="Autocar Performance Show"/></a>
+					<em>Autocar Performance Show</em>
+				</li>
+				<li class="filter-events">
+					<a href="eventsganeshchaturthi"><img src="eventsganeshchaturthi/one.jpg" onmouseover="this.src='eventsganeshchaturthi/two.jpg'" onmouseout="this.src='eventsganeshchaturthi/one.jpg'" alt="Ganesh Chaturthi"/></a>
+					<em>Ganesh Chaturthi</em>
+				</li>
+				<li class="filter-events">
+					<a href="eventsmumbaimarathon"><img src="eventsmumbaimarathon/one.jpg" onmouseover="this.src='eventsmumbaimarathon/two.jpg'" onmouseout="this.src='eventsmumbaimarathon/one.jpg'" alt="Mumbai Marathon"/></a>
+					<em>Mumbai Marathon</em>
+				</li>
+				<li class="filter-rides">
+					<a href="ridesreuserrideoneride"><img src="ridesreuserrideoneride/one.jpg" onmouseover="this.src='ridesreuserrideoneride/two.jpg'" onmouseout="this.src='ridesreuserrideoneride/one.jpg'" alt="RE User Ride - One Ride"/></a>
+					<em>RE User Ride - One Ride</em>
+				</li>
+				<li class="filter-rides">
+					<a href="ridesreuserrideeyeride"><img src="ridesreuserrideeyeride/one.jpg" onmouseover="this.src='ridesreuserrideeyeride/two.jpg'" onmouseout="this.src='ridesreuserrideeyeride/one.jpg'" alt="RE User Ride - Eye Ride"/></a>
+					<em>RE User Ride - Eye Ride</em>
+				</li>
+				<li class="filter-rides">
+					<a href="ridesunisonridenasik"><img src="ridesunisonridenasik/one.jpg" onmouseover="this.src='ridesunisonridenasik/two.jpg'" onmouseout="this.src='ridesunisonridenasik/one.jpg'" alt="Unison Ride - Nasik"/></a>
+					<em>Unison Ride - Nasik</em>
+				</li>
+				<li class="filter-rides">
+					<a href="ridesunisonrideymcacamplakeside"><img src="ridesunisonrideymcacamplakeside/one.jpg" onmouseover="this.src='ridesunisonrideymcacamplakeside/two.jpg'" onmouseout="this.src='ridesunisonrideymcacamplakeside/one.jpg'" alt="Unison Ride - YMCA Camp Lakeside"/></a>
+					<em>Unison Ride - YMCA Camp Lakeside</em>
+				</li>
+				<li class="filter-rides">
+					<a href="ridesunisonridesilvassa"><img src="ridesunisonridesilvassa/one.jpg" onmouseover="this.src='ridesunisonridesilvassa/two.jpg'" onmouseout="this.src='ridesunisonridesilvassa/one.jpg'" alt="Unison Ride - Silvassa"/></a>
+					<em>Unison Ride - Silvassa</em>
+				</li>
+				<li class="filter-rides">
+					<a href="ridesiwbcridelavasa"><img src="ridesiwbcridelavasa/one.jpg" onmouseover="this.src='ridesiwbcridelavasa/two.jpg'" onmouseout="this.src='ridesiwbcridelavasa/one.jpg'" alt="IWBC Ride - Lavasa"/></a>
+					<em>IWBC Ride - Lavasa</em>
+				</li>
+			</ul>
+			<!-- ENDS Thumbnails -->
+
 		</div>
 		<!-- ENDS MAIN -->
+	
 	</div>
 	<!-- ENDS CONTENT -->
 	</div>
 	<!-- ENDS WRAPPER -->
 	
-	
-	
 	<!-- FOOTER -->
 	<div id="footer">
 		<div id="footer-wrapper">
-			
-			
-		
+
 			<!-- footer-cols -->
 			<ul class="footer-cols">
 				<li class="col">
@@ -153,6 +213,12 @@
 						</script>
 					</ul>
 				</li>				
+				<li class="col">
+					<h6>CONTACT</h6>
+					<ul>
+						<li><a href="mailto:photography@rayaguru.com">photography@rayaguru.com</a></li>
+					</ul>
+				</li>
 			</ul>
 			<!-- footer-cols -->
 
@@ -161,15 +227,13 @@
 		<div class="footer-bottom">
 			<p class="legal">&#169; <a href="http://www.rayaguru.com" target="_blank">Rayaguru</a></p>
 		</div>
-			
+
 	</div>
 	<!-- ENDS FOOTER -->
-	
 	
 	<!-- start cufon -->
 	<script type="text/javascript"> Cufon.now(); </script>
 	<!-- ENDS start cufon -->
-	
 	
 	</body>
 </html>
