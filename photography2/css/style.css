@@ -1293,6 +1293,23 @@ ul#sidebar li.recent-posts div.recent-excerpt a{
 	background: url(../img/staff-girl.png) no-repeat bottom left;
 }
 
+.main-mail a{
+	display: inline;
+	text-decoration: none;
+	padding: 2px 8px;
+	background: white;
+	color: #606060;
+	border: 1px solid white;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	/* background color degree */
+	background: #c4d3d7;
+	background: -webkit-gradient(linear, left top, left bottom, from(#c4d3d7), to(#fff));
+	background: -moz-linear-gradient(top,  #c4d3d7,  #fff);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#c4d3d7', endColorstr='#fff');
+}
+
 /* FORMS ------------------------------------------------------------*/
 
 #contactForm p{
@@ -1471,7 +1488,7 @@ div#footer ul.footer-cols li.col{
 
 div#footer ul.footer-cols li.col:first-child{
 	margin-left: 13px;
-	width: 312px;
+	width: 468px;
 	background: none;
 }
 
