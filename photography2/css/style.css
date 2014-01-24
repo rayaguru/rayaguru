@@ -655,6 +655,7 @@ div#slideshow ul#slides{
 	height: 340px;
 	top: 20px;
 	left: 20px;
+	border-radius: 10px 10px 10px 10px;
 }
 
 div#slideshow span{
