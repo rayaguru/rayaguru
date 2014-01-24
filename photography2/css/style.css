@@ -745,12 +745,9 @@ ul.gallery li{
 	overflow: hidden;
 	float: left;
 	margin: 0px 0px 20px 20px;
-	padding: 1px;
-	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e2e6e7));
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e2e6e7');
 	text-align: center;
 	/*rounded corners*/
-	border-radius: 0px 0px 10px 10px;
 	-moz-border-radius: 0px 0px 10px 10px;
 	-webkit-border-radius: 0px 0px 10px 10px;
 	/* shadows*/
@@ -762,6 +759,7 @@ ul.gallery.two-cols li{
 	width: 437px;
 	height: 234px;
 	margin: 0px 0px 20px 20px;
+	border-radius: 10px 10px 10px 10px;
 	background: -moz-linear-gradient(top, #ffffff, #e2e6e7);
 	box-shadow: 0 0 10px rgb(0,0,0); 
 }
@@ -770,14 +768,14 @@ ul.gallery.three-cols li{
 	width: 284px;
 	height: 234px;
 	margin: 0px 0px 20px 20px;
+	border-radius: 10px 10px 10px 10px;
 	background: -moz-linear-gradient(top, #ffffff, #e2e6e7);
 	box-shadow: 0 0 10px rgb(0,0,0); 
 }
 
 ul.gallery.four-cols li{
-	width: 207px;
-	height: 207px;
 	margin: 0px 0px 20px 20px;
+	border-radius: 5px 5px 5px 5px;
 }
 
 ul.gallery.two-cols li img{
