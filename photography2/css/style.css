@@ -776,8 +776,9 @@ ul.gallery.three-cols li{
 }
 
 ul.gallery.four-cols li{
+	width: 200px;
+	height: 200px;
 	margin: 0px 0px 20px 20px;
-	border-radius: 5px 5px 5px 5px;
 }
 
 ul.gallery.two-cols li img{
