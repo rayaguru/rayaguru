@@ -8,7 +8,7 @@ margin-bottom : 0;
 width : 800px;
 position : relative;
 height : 162px;
-background-image : url(../image/header.jpg);
+background-image : url(../img/header.jpg);
 background-repeat : no-repeat;
 }
 #logo {
@@ -92,12 +92,12 @@ width : 580px;
 .table_top {
 width : 204px;
 height : 27px;
-background-image : url(../image/table_top.jpg);
+background-image : url(../img/table_top.jpg);
 background-repeat : no-repeat;
 }
 .table_content {
 width : 204px;
-background-image : url(../image/table_content.jpg);
+background-image : url(../img/table_content.jpg);
 background-repeat : repeat-y;
 }
 .table_text {
@@ -108,7 +108,7 @@ text-align : justify;
 .table_bottom {
 width : 204px;
 height : 23px;
-background-image : url(../image/table_bottom.jpg);
+background-image : url(../img/table_bottom.jpg);
 background-repeat : no-repeat;
 }
 .events_title {
@@ -145,7 +145,7 @@ font-size : 11px;
 #footer {
 width : 779px;
 height : 32px;
-background-image : url(../image/footer.gif);
+background-image : url(../img/footer.gif);
 background-repeat : no-repeat;
 clear : both;
 font-family : Verdana, Arial, Helvetica, sans-serif;
