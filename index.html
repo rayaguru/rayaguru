@@ -22,7 +22,7 @@ body{
 }
 
 #btn1{
-	background:#06F;
+	background:#FFD700;
 	height:200px;
 	width:200px;
 	position:relative;
@@ -39,7 +39,7 @@ body{
 }
 
 #btn2{
-	background:#C30;
+	background:#6C0;
 	height:200px;
 	width:200px;
 	position:relative;
@@ -55,12 +55,14 @@ body{
 	text-align:left;
 }
 
+
 #btn3{
-	background:#F60;
+	background:#F33;
 	height:200px;
 	width:200px;
 	position:relative;
 	margin-left:10px;
+	margin-top:30px;
 	left:900px;
 	cursor:pointer;
 	
@@ -73,43 +75,7 @@ body{
 }
 
 #btn4{
-	background:#C3C;
-	height:200px;
-	width:200px;
-	position:relative;
-	margin-left:10px;
-	margin-top:30px;
-	left:900px;
-	cursor:pointer;
-	
-	color:#FFF;
-	font-size:25px;
-	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	line-height:300px;
-	padding-left:10px;
-	text-align:left;
-}
-
-#btn5{
-	background:#F36;
-	height:200px;
-	width:200px;
-	position:relative;
-	margin-left:10px;
-	margin-top:30px;
-	left:900px;
-	cursor:pointer;
-	
-	color:#FFF;
-	font-size:25px;
-	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	line-height:300px;
-	padding-left:10px;
-	text-align:left;
-}
-
-#btn6{
-	background:#6C0;
+	background:#06C;
 	height:200px;
 	width:200px;
 	position:relative;
@@ -158,18 +124,16 @@ body{
 <body link="#FFFFFF">
 <div style="width:100%; height:80px; overflow:hidden; margin: 0 auto; background-color:#333">
   <div style="width:750px; height:80px; margin: 0 auto; overflow:hidden; position:relative">
-        <div id="caption" style="height:44px; margin-top:25px;float:left; margin-left:12px; position:absolute"> You have reached out to Rayaguru, feel free to browse some of our websites here... </div>
+        <div id="caption" style="height:44px; margin-top:25px;float:left; margin-left:48px; position:absolute"> You have reached out to Rayaguru, feel free to browse some of our websites here... </div>
   </div>
 </div>
 
-<div style="width:750px; height:450px; overflow:hidden; margin: 0 auto; position:relative; margin-top:25px;">
-	<a href="http://www.foxaide.com" target="_blank"><div id="btn1" style="float:left"> <p> FoxAide </p> </div> </a>
-    <a href="http://www.fotogit.com" target="_blank"><div id="btn2" style="float:left"> <p> FotoGit </p> </div> </a>
-    <a href="http://www.foodhopper.com" target="_blank"><div id="btn3" style="float:left"> <p> Foodhopper </p> </div> </a>
-    <a href="http://www.motogit.com" target="_blank"><div id="btn4" style="float:left"> <p> MotoGit </p> </div> </a>
-    <a href="http://www.geekglamor.com" target="_blank"><div id="btn5" style="float:left"> <p> GeekGlamor </p> </div> </a>
-    <a href="http://www.letsagile.com" target="_blank"><div id="btn6" style="float:left"> <p> LetsAgile </p> </div> </a>
-    <div id="content" style="position:absolute"> <iframe name="main" frameborder=0 height=450 width=750></iframe>  </div>
+<div style="width:450px; height:450px; overflow:hidden; margin: 0 auto; position:relative; margin-top:25px;">
+    <a href="http://www.foodhopper.in" target="_blank"><div id="btn1" style="float:left"> <p> Foodhopper </p> </div> </a>
+    <a href="http://www.letsagile.com" target="_blank"><div id="btn2" style="float:left"> <p> LetsAgile </p> </div> </a>
+    <a href="http://www.fotogit.com" target="_blank"><div id="btn3" style="float:left"> <p> FotoGit </p> </div> </a>
+    <a href="http://www.foxaide.com" target="_blank"><div id="btn4" style="float:left"> <p> FoxAide </p> </div> </a>
+    <div id="content" style="position:absolute"> <iframe name="main" frameborder=0 height=450 width=450></iframe>  </div>
 </div>
 
 <script type="text/javascript">
@@ -177,11 +141,9 @@ body{
     TweenLite.to($("#caption"),2,{css:{top:0},delay:1, ease:Power2.easeOut});
     TweenLite.to($("#btn1"),2,{css:{left:0},delay:2, ease:Power2.easeOut});
     TweenLite.to($("#btn2"),2,{css:{left:20},delay:2.5, ease:Power2.easeOut});
-    TweenLite.to($("#btn3"),2,{css:{left:40},delay:3, ease:Power2.easeOut});
-    TweenLite.to($("#btn4"),2,{css:{left:0},delay:3.5, ease:Power2.easeOut});
-    TweenLite.to($("#btn5"),2,{css:{left:20},delay:4, ease:Power2.easeOut});
-    TweenLite.to($("#btn6"),2,{css:{left:40},delay:4.5, ease:Power2.easeOut});
+    TweenLite.to($("#btn3"),2,{css:{left:0},delay:3.5, ease:Power2.easeOut});
+    TweenLite.to($("#btn4"),2,{css:{left:20},delay:4, ease:Power2.easeOut});
     });
-</script>	
+</script>
 </body>
 </html>
